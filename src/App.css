@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+
+/* Toggle Switch CSS */
+* {
+  margin: 0;
+  padding: 0;
+}
+.white-content {
+  background: #e4e4e4;
+}
+.wrapper .switch {
+  position: absolute;
+  right: 3%;
+  top: 5%;
+  transform: translate(-50%, -50%);
+  width: 120px;
+  height: 50px;
+}
+.wrapper .switch input {
+  display: none;
+}
+.wrapper .switch .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #6c689e;   /* slider bg on dark mode */
+  transition: all 1.4s;
+  border-radius: 50px;
+  z-index: 100;
+  overflow: hidden;
+}
+.wrapper .switch .slider:before,
+.wrapper .switch .slider:after {  /* slider circle on dark mode */
+  position: absolute;
+  content: '';
+  height: 40px;
+  width: 40px;
+  left: 5px;
+  bottom: 5px;
+  border-radius: 30px;
+  background-color: #a9b2f7;
+}
+.wrapper .switch .slider:before {
+  transition: 0.4s;
+}
+.wrapper .switch .slider:after {
+  transition: 0.5s;
+}
+.wrapper .switch input:checked + .slider {   /* slider bg on white mode */
+  background-color: #605c88;
+}
+.wrapper .switch input:checked + .slider:before {
+  transform: translateX(70px);
+}
+.wrapper .switch input:checked + .slider:after {
+  transform: translateX(70px);
+}
+
+
+
+
