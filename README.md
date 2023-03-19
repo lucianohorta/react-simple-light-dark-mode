@@ -1,14 +1,14 @@
-# Dark and light moe demo
+# Dark and light mode demo
 
-This is a demo react app demo to swich between dark and white.
-The app uses a theme context and a theme wrapper.
-For styling:
+A simplified React Switch to toggle light/dark modes.
 
-- Bootstrap and Reactstrap
+- Bootstrap and Reactstrap required - install it first with:
+### `npm install reactstrap react react-dom`
+### `npm install --save bootstrap`
 
 # Demo
 
-![App's demo](public/demo.gif)
+![App's demo](public/demo.png)
 
 # Install the app
 
