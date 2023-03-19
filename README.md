@@ -8,7 +8,7 @@ A simplified React Switch to toggle light/dark modes.
 
 # Demo
 
-![App's demo](public/demo.png)
+![Switch Toggle demo](public/demoswitch2.gif)
 
 # Install the app
 
